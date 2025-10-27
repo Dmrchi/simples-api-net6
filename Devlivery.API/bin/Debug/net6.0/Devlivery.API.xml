@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Devlivery.API</name>
+    </assembly>
+    <members>
+        <member name="M:Devlivery.API.Controllers.VagaController.AdicionaVaga(Devlivery.API.Request.VagaRequest)">
+            <summary>
+            Adiciona uma vaga ao banco de dados
+            </summary>
+            <param name="vagaRequest">Objeto com os campos necessários para criação de uma vaga </param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:Devlivery.API.Controllers.VagaController.ListaVagas(System.Int32,System.Int32)">
+            <summary>
+            Lista uma pagina de vagas conforme os parametros
+            </summary>
+            <param name="skip">A partir d </param>
+            <param name="take">Quantos d </param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso a listagem de vagas seja feita com sucesso</response>
+        </member>
+        <member name="M:Devlivery.API.Controllers.VagaController.BuscaVagaPorId(System.Int32)">
+            <summary>
+            Busca uma vaga por Identificador (id)
+            </summary>
+            <param name="id"> Id da vaga a ser alterada </param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso a vagas exista e tenha sido encontrada com sucesso</response>
+        </member>
+        <member name="M:Devlivery.API.Controllers.VagaController.AtualizaVagaCompleta(System.Int32,Devlivery.API.Request.VagaRequest)">
+            <summary>
+            Atualiza uma vaga com PUT por Identificador (id) e parametros (dados) com as novas informações da vaga a ser alterada.
+            </summary>
+            <param name="id"> Id da vaga a ser buscada </param>
+            <param name="vagaRequest"> Objeto com novas informações para atualização no banco de dados </param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso a vaga tenha sido toda atualizada com sucesso</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Devlivery.API.Controllers.VagaController.AtualizarVaga(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Devlivery.API.Request.VagaRequest})" -->
+        <member name="M:Devlivery.API.Controllers.VagaController.DeletarVaga(System.Int32)">
+            <summary>
+            Deleta uma vaga por identificador 
+            </summary>
+            <param name="id"> Identificador (id) para encontrar a vaga que será deletada </param>
+            <returns>IActionResult</returns>
+            <response code="204">Caso a remoção seja feita com sucesso</response>
+        </member>
+        <member name="M:Devlivery.API.Controllers.VagaController.InserirLote(System.Int32)">
+            <summary>
+            Insere um Lote Mock de vagas fake para teste do banco de dados
+            </summary>
+            <param name="vagaRequest"> Identificador do Lote</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,325 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "FilmesAPI",
+    "version": "v1"
+  },
+  "paths": {
+    "/Vaga": {
+      "post": {
+        "tags": [
+          "Vaga"
+        ],
+        "summary": "Adiciona uma vaga ao banco de dados",
+        "requestBody": {
+          "description": "Objeto com os campos necessários para criação de uma vaga",
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Caso inserção seja feita com sucesso"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Vaga"
+        ],
+        "summary": "Lista uma pagina de vagas conforme os parametros",
+        "parameters": [
+          {
+            "name": "skip",
+            "in": "query",
+            "description": "A partir d",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "take",
+            "in": "query",
+            "description": "Quantos d",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 25
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Caso a listagem de vagas seja feita com sucesso"
+          }
+        }
+      }
+    },
+    "/Vaga/{id}": {
+      "get": {
+        "tags": [
+          "Vaga"
+        ],
+        "summary": "Busca uma vaga por Identificador (id)",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Id da vaga a ser alterada",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Caso a vagas exista e tenha sido encontrada com sucesso"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Vaga"
+        ],
+        "summary": "Atualiza uma vaga com PUT por Identificador (id) e parametros (dados) com as novas informações da vaga a ser alterada.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Id da vaga a ser buscada",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Objeto com novas informações para atualização no banco de dados",
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VagaRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "Caso a vaga tenha sido toda atualizada com sucesso"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Vaga"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Operation"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Vaga"
+        ],
+        "summary": "Deleta uma vaga por identificador",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Identificador (id) para encontrar a vaga que será deletada",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Success"
+          },
+          "204": {
+            "description": "Caso a remoção seja feita com sucesso"
+          }
+        }
+      }
+    },
+    "/Vaga/{lote}": {
+      "post": {
+        "tags": [
+          "Vaga"
+        ],
+        "summary": "Insere um Lote Mock de vagas fake para teste do banco de dados",
+        "parameters": [
+          {
+            "name": "lote",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Caso inserção seja feita com sucesso"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Operation": {
+        "type": "object",
+        "properties": {
+          "operationType": {
+            "$ref": "#/components/schemas/OperationType"
+          },
+          "path": {
+            "type": "string",
+            "nullable": true
+          },
+          "op": {
+            "type": "string",
+            "nullable": true
+          },
+          "from": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OperationType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "VagaRequest": {
+        "required": [
+          "tipo",
+          "titulo"
+        ],
+        "type": "object",
+        "properties": {
+          "titulo": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
