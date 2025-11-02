@@ -1,11 +1,3 @@
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.csproj.AssemblyReference.cache
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\rpswa.dswa.cache.json
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.AssemblyInfoInputs.cache
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.AssemblyInfo.cs
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.csproj.CoreCompileInputs.cache
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\appsettings.json
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Devlivery.API.staticwebassets.endpoints.json
@@ -14,6 +6,7 @@ C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Devlivery.API.runtimeconfig.json
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Devlivery.API.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Devlivery.API.pdb
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Devlivery.API.xml
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Humanizer.dll
@@ -69,6 +62,15 @@ C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.csproj.AssemblyReference.cache
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.AssemblyInfoInputs.cache
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.AssemblyInfo.cs
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.csproj.CoreCompileInputs.cache
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.sourcelink.json
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\rjimswa.dswa.cache.json
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
@@ -81,8 +83,7 @@ C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devliver.D5B891AF.Up2Date
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\refint\Devlivery.API.dll
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.xml
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.pdb
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.genruntimeconfig.cache
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\ref\Devlivery.API.dll
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Devlivery.API.xml
-C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\obj\Debug\net6.0\Devlivery.API.xml

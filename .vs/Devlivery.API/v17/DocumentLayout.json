@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\devlivery.api\\devlivery.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|solutionrelative:devlivery.api\\devlivery.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\devlivery.api\\controllers\\vagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|solutionrelative:devlivery.api\\controllers\\vagacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\devlivery.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|solutionrelative:devlivery.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\usuarios.api\\infraestrutura\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|solutionrelative:usuarios.api\\infraestrutura\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Devlivery.API",
-              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Devlivery.API.csproj",
-              "RelativeDocumentMoniker": "Devlivery.API\\Devlivery.API.csproj",
-              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Devlivery.API.csproj",
-              "RelativeToolTip": "Devlivery.API\\Devlivery.API.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-27T21:24:39.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Program.cs",
-              "RelativeDocumentMoniker": "Devlivery.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Program.cs",
-              "RelativeToolTip": "Devlivery.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
+              "RelativeToolTip": "Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvz0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T21:16:14.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VagaController.cs",
-              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Controllers\\VagaController.cs",
-              "RelativeDocumentMoniker": "Devlivery.API\\Controllers\\VagaController.cs",
-              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Controllers\\VagaController.cs",
-              "RelativeToolTip": "Devlivery.API\\Controllers\\VagaController.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAYwLEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T21:15:29.035Z",
+              "WhenOpened": "2025-11-02T00:47:14.945Z",
               "EditorCaption": ""
             }
           ]
