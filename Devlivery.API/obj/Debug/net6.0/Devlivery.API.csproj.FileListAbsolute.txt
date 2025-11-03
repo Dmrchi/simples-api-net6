@@ -38,6 +38,7 @@ C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Antonio Demarchi\source\repos\Devlivery.API\Devlivery.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

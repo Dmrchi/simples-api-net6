@@ -5,7 +5,53 @@
     "version": "v1"
   },
   "paths": {
-    "/Vaga": {
+    "/api/Profissional": {
+      "get": {
+        "tags": [
+          "Profissional"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Profissional"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioRequestHttp"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioRequestHttp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioRequestHttp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioRequestHttp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Vaga": {
       "post": {
         "tags": [
           "Vaga"
@@ -76,7 +122,7 @@
         }
       }
     },
-    "/Vaga/{id}": {
+    "/api/Vaga/{id}": {
       "get": {
         "tags": [
           "Vaga"
@@ -232,7 +278,7 @@
         }
       }
     },
-    "/Vaga/{lote}": {
+    "/api/Vaga/{lote}": {
       "post": {
         "tags": [
           "Vaga"
@@ -295,6 +341,34 @@
         ],
         "type": "integer",
         "format": "int32"
+      },
+      "UsuarioRequestHttp": {
+        "required": [
+          "email",
+          "nome",
+          "senha",
+          "telefone"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "maxLength": 100,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 50,
+            "type": "string"
+          },
+          "senha": {
+            "maxLength": 40,
+            "type": "string"
+          },
+          "telefone": {
+            "maxLength": 20,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
       },
       "VagaRequest": {
         "required": [

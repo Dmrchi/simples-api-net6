@@ -1,5 +1,9 @@
 using Devlivery.API.Data;
+using Devlivery.API.Data.Interface;
+using Devlivery.API.EventProcessor;
+using Devlivery.API.EventProcessor.Interface;
 using Devlivery.API.Profiles;
+using Devlivery.API.RabbitMqClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
@@ -20,6 +24,10 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //builder.Services.AddAutoMapper(typeof(VagaProfile).Assembly);
 builder.Services.AddControllers().AddNewtonsoftJson();
 //builder.Services.AddControllers().AddNewtonsoftJson();
+
+builder.Services.AddScoped<IVagaRepository, VagaRepository>();
+builder.Services.AddHostedService<RabbitMqSubscriber>();
+builder.Services.AddSingleton<IProcessaEvento, ProcessaEvento>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -48,4 +56,18 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<VagaContext>();
+
+        context.Database.Migrate();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Error: "+ex.ToString());
+    }
+}
 app.Run();

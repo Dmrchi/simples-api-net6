@@ -8,20 +8,27 @@ using Usuarios.API.Response;
 namespace Usuarios.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioService _usuarioService;
+        private IProfissionalHttpService _profissionalHttpService;
+        private IRabbitMqClient _rabbitMqClient;
+
         //private VagaContext _context;
         //private IMapper _mapper;
         //   ILogger logger,
 
         public UsuarioController(
-            IUsuarioService usuarioService
+            IUsuarioService usuarioService,
+            IProfissionalHttpService profissionalHttpService,
+            IRabbitMqClient rabbitMqClient
             //VagaContext context, IMapper mapper
             )
         {
             _usuarioService = usuarioService;
+            _profissionalHttpService = profissionalHttpService;
+            _rabbitMqClient = rabbitMqClient;
             //_context = context;
             //_mapper = mapper;
         }
@@ -52,6 +59,10 @@ namespace Usuarios.API.Controllers
             };
 
             var resultado = await _usuarioService.CadastrarUsuarioAsync(usuario);
+
+            //_profissionalHttpService.EnviaProfissionalParaDevlivery(usuarioRequest);
+            _rabbitMqClient.PublicaProfissionalParaDevlivery(usuarioRequest);
+
 
             if (resultado.Sucesso && resultado.Status == 201)
             {

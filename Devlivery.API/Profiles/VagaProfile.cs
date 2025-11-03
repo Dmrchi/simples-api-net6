@@ -13,6 +13,11 @@ namespace Devlivery.API.Profiles
             CreateMap<Vaga, VagaRequest>();
             CreateMap<Vaga, VagaResponse>();
 
+
+            CreateMap<UsuarioRequest, Usuario>();
+            //CreateMap<UsuarioRequest, Profissional>();
+            //.ForMember(dest => dest.IdExterno, opt => opt.MapFrom(src => src.Id));
+
         }
     }
 }

@@ -1,0 +1,24 @@
+docker network create --driver bridge devlivery-bridge
+
+docker run -d --hostname rabbitmq-service --name rabbitmq-service --network devlivery-bridge rabbitmq:3-management
+
+docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=P@ssword" -p 1433:1433 -d --networking devlivery-bridge mcr.microsoft.com/mssql/server:2022-latest
+
+docker build -t usuario:1.5 .
+
+docker run --name usuario -d -p 8080:80 --network devlivery-bridge usuario:1.5
+
+docker build -t devlivery:1.5 .
+
+docker run --name devlivery -d -p 8081:80 --network devlivery-bridge devlivery:1.5
+
+
+EXTRA
+docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3
+docker rm -f $(docker ps -aq)
+
+//Rodar no CMD o init.sql e criar o banco de dados automaticamente ao iniciar o container do SQL Server [dentro da pasta sql-init/init.sql]
+docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=P@ssword" -p 1433:1433 -d --network devlivery-bridge -v "%cd%\sql-init:/docker-entrypoint-initdb.d" mcr.microsoft.com/mssql/server:2022-latest
+
+//Rodar no PowerShell o init.sql e criar o banco de dados automaticamente ao iniciar o container do SQL Server [dentro da pasta sql-init/init.sql]
+docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=P@ssword" -p 1433:1433 -d --network devlivery-bridge -v "${pwd}\sql-init:/docker-entrypoint-initdb.d" mcr.microsoft.com/mssql/server:2022-latest

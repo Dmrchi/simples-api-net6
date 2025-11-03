@@ -9,7 +9,7 @@ using Devlivery.API.Response;
 namespace Devlivery.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class VagaController : ControllerBase
     {
         private VagaContext _context;

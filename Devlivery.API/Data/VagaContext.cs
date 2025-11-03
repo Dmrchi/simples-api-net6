@@ -11,7 +11,21 @@ namespace Devlivery.API.Data
         }
         
         public DbSet<Vaga> Vagas { get; set; }
+        /* Errado Corrigir : 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .Entity<Vaga>()
+                .HasMany(c => c.Profissional)
+                .WithOne(a => a.Vaga!)
+                .HasForeignKey(a => a.IdRestaurante);
 
+            modelBuilder
+                .Entity<Profissional>()
+                .HasOne(a => a.Vaga)
+                .WithMany(c => c.Profissional)
+                .HasForeignKey(a => a.IdRestaurante);
+        }*/
 
     }
 }

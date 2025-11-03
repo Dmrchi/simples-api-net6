@@ -1,0 +1,21 @@
+IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'usuario')
+BEGIN
+    CREATE DATABASE [usuario];
+END
+GO
+
+USE [usuario];
+GO
+
+
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='usuario' and xtype='U')
+BEGIN
+    CREATE TABLE [dbo].[usuario] (
+        [Id] INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+        [Nome] VARCHAR(100) NOT NULL, -- Nome do usuário, tamanho máximo de 100 caracteres
+        [Email] VARCHAR(150) NOT NULL UNIQUE, -- E-mail, tamanho máximo de 150 caracteres, NÃO PODE SER REPETIDO
+        [Senha] VARCHAR(255) NOT NULL, -- Senha (Mantenha o tamanho grande para armazenar hashes de senhas seguras!)
+        [Telefone] VARCHAR(20) NULL, -- Telefone, tamanho máximo de 20 caracteres (Pode ser nulo)
+    );
+END
+GO

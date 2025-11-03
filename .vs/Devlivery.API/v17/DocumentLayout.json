@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\usuarios.api\\infraestrutura\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|solutionrelative:usuarios.api\\infraestrutura\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\devlivery.api\\eventprocessor\\processaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|solutionrelative:devlivery.api\\eventprocessor\\processaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\devlivery.api\\rabbitmqclient\\rabbitmqsubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|solutionrelative:devlivery.api\\rabbitmqclient\\rabbitmqsubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\devlivery.api\\data\\vagacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|solutionrelative:devlivery.api\\data\\vagacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\usuarios.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|solutionrelative:usuarios.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\devlivery.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D31DB8F9-1662-4D1E-AC6A-ACF5888F5407}|Devlivery.API\\Devlivery.API.csproj|solutionrelative:devlivery.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\usuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|solutionrelative:usuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|c:\\users\\antonio demarchi\\source\\repos\\devlivery.api\\usuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{237A633C-CD1C-409F-B1B1-3D0C9D136713}|Usuarios.API\\Usuarios.API.csproj|solutionrelative:usuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
-              "RelativeToolTip": "Usuarios.API\\Infraestrutura\\UsuarioRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvz0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "VagaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Data\\VagaContext.cs",
+              "RelativeDocumentMoniker": "Devlivery.API\\Data\\VagaContext.cs",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\Data\\VagaContext.cs",
+              "RelativeToolTip": "Devlivery.API\\Data\\VagaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T00:47:14.945Z",
+              "WhenOpened": "2025-11-03T04:55:47.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Devlivery.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\appsettings.json",
+              "RelativeToolTip": "Devlivery.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T04:44:13.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Usuarios.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\appsettings.json",
+              "RelativeToolTip": "Usuarios.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T04:43:58.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RabbitMqSubscriber.cs",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\RabbitMqClient\\RabbitMqSubscriber.cs",
+              "RelativeDocumentMoniker": "Devlivery.API\\RabbitMqClient\\RabbitMqSubscriber.cs",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\RabbitMqClient\\RabbitMqSubscriber.cs",
+              "RelativeToolTip": "Devlivery.API\\RabbitMqClient\\RabbitMqSubscriber.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvycAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:43:27.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcessaEvento.cs",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\EventProcessor\\ProcessaEvento.cs",
+              "RelativeDocumentMoniker": "Devlivery.API\\EventProcessor\\ProcessaEvento.cs",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Devlivery.API\\EventProcessor\\ProcessaEvento.cs",
+              "RelativeToolTip": "Devlivery.API\\EventProcessor\\ProcessaEvento.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:42:08.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Program.cs",
+              "RelativeDocumentMoniker": "Usuarios.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Program.cs",
+              "RelativeToolTip": "Usuarios.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:34:38.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Usuarios.API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Antonio Demarchi\\source\\repos\\Devlivery.API\\Usuarios.API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Usuarios.API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:31:07.983Z",
               "EditorCaption": ""
             }
           ]

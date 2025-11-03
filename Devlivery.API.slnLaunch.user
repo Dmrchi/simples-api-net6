@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "Devlivery.API\\Devlivery.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Usuarios.API\\Usuarios.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

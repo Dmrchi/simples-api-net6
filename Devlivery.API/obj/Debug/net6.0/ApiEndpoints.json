@@ -1,8 +1,40 @@
 [
   {
+    "ContainingType": "Devlivery.API.Controllers.ProfissionalController",
+    "Method": "ObterProfissionais",
+    "RelativePath": "api/Profissional",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Devlivery.API.Controllers.ProfissionalController",
+    "Method": "AdicionarProfissional",
+    "RelativePath": "api/Profissional",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioRequestHttp",
+        "Type": "Devlivery.API.Request.RequestHttp.UsuarioRequestHttp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
     "ContainingType": "Devlivery.API.Controllers.VagaController",
     "Method": "AdicionaVaga",
-    "RelativePath": "Vaga",
+    "RelativePath": "api/Vaga",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -24,7 +56,7 @@
   {
     "ContainingType": "Devlivery.API.Controllers.VagaController",
     "Method": "ListaVagas",
-    "RelativePath": "Vaga",
+    "RelativePath": "api/Vaga",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -51,7 +83,7 @@
   {
     "ContainingType": "Devlivery.API.Controllers.VagaController",
     "Method": "BuscaVagaPorId",
-    "RelativePath": "Vaga/{id}",
+    "RelativePath": "api/Vaga/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -73,7 +105,7 @@
   {
     "ContainingType": "Devlivery.API.Controllers.VagaController",
     "Method": "AtualizaVagaCompleta",
-    "RelativePath": "Vaga/{id}",
+    "RelativePath": "api/Vaga/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -100,7 +132,7 @@
   {
     "ContainingType": "Devlivery.API.Controllers.VagaController",
     "Method": "AtualizarVaga",
-    "RelativePath": "Vaga/{id}",
+    "RelativePath": "api/Vaga/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -127,7 +159,7 @@
   {
     "ContainingType": "Devlivery.API.Controllers.VagaController",
     "Method": "DeletarVaga",
-    "RelativePath": "Vaga/{id}",
+    "RelativePath": "api/Vaga/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -149,7 +181,7 @@
   {
     "ContainingType": "Devlivery.API.Controllers.VagaController",
     "Method": "InserirLote",
-    "RelativePath": "Vaga/{lote}",
+    "RelativePath": "api/Vaga/{lote}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
